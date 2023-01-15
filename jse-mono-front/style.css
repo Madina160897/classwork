@@ -1,0 +1,80 @@
+body {
+    background-color: rgb(96 188 144);
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+.blocks {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.box {
+    text-align: center;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: 700;
+    color: azure;
+}
+
+.car_item {
+    width: 450px;
+    margin-bottom: 15px;
+    padding: 1% 10%;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgb(4, 80, 48);
+}
+
+.user_item {
+    width: 400px;
+    margin-bottom: 15px;
+    padding: 1% 10%;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgb(4, 80, 48);
+}
+
+.block_change {
+    display: flex;
+    justify-content: space-around;
+    width: 550px;
+    margin: 0 auto;
+}
+
+input {
+    width: 150px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(175, 175, 175);
+    padding: 1% 3%;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+button {
+    width: 250px;
+    height: 32px;
+    border-radius: 5px;
+    background-color: rgb(64 61 61);
+    color: white;
+    border: none;
+    box-shadow: 0 0 5px gray;
+    margin-left: 10px;
+    font-size: 16px;
+}
